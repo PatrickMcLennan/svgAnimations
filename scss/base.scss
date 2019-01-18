@@ -15,16 +15,15 @@ body {
   min-height: 100vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 40vh);
+  grid-template-rows: minmax(1fr repeat(2, 40vh));
   grid-gap: 7.5vh;
-  justify-content: center;
-  align-items: center;
+  justify-content: stretch;
+  align-items: stretch;
   padding: 5vh;
   background: linear-gradient(to right bottom, red, orange);
 
   & > * {
     box-shadow: 0 2rem 10rem black;
-    align-self: stretch;
   }
 }
 
