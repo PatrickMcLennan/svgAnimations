@@ -12,10 +12,21 @@ html {
 }
 
 body {
+  min-height: 100vh;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 40vh);
-  grid-gap: 10vh;
+  grid-gap: 7.5vh;
+  justify-content: center;
+  align-items: center;
   padding: 5vh;
   background: linear-gradient(to right bottom, red, orange);
+
+  & > * {
+    box-shadow: 0 2rem 10rem black;
+  }
+}
+
+svg {
+  padding: 1vh;
 }

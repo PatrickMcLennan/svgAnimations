@@ -1,0 +1,30 @@
+.text {
+
+  &__svg {
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    font-weight: '100';
+    font-family: 'Times New Roman';
+    fill: linear-gradient(white, black);
+    // animation: glow 3s infinite reverse;
+  }
+
+  // & tspan {
+  //   // animation: glow 3s infinite forwards;
+  // }
+}
+
+// @keyframes glow {
+//   0% {
+//     stroke: rgba(0,0,0,0);
+//     stroke-linecap:"butt";
+//   }
+//   50% {
+//     stroke: rgba(0,0,0,1);
+//     stroke-linecap:"square";
+//   }
+//   100% {
+//     stroke: rgba(0,0,0,0);
+//     stroke-linecap:"butt";
+//   }
+// }

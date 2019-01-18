@@ -26,7 +26,7 @@
   &:hover {
 
     & line {
-      stroke-width: 5;
+      stroke-width: 7.5;
     }
 
     & .x__line1 {
@@ -47,7 +47,6 @@
 
 $colors: white white #485460 #0fbcf9 #ffdd59 #0be881;
 @for $i from 1 through 6 {
-  
   .x__svg line:nth-child(#{$i}) {
     stroke: #{nth($colors, $i)};
 
