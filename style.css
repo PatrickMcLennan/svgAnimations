@@ -90,7 +90,7 @@ svg {
   opacity: 1; }
 
 :root {
-  --textAnimationTiming: 2s; }
+  --textAnimationTiming: 3s; }
 
 .text {
   font-size: 2.5vw;
